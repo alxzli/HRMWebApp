@@ -3,16 +3,24 @@ html {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+    
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+html, body, #page-one, #page-two, #page-three, #page-four {
+    height: auto;
+    min-height: 100vh;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
 }
