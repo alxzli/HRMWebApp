@@ -18,14 +18,17 @@ body {
     margin-bottom: 60px;
 }
 
-html, body, #page-two, #page-three, #page-four {
+
+html, body, #page-one, #page-two, #page-three, #page-four {
     height: auto;
     min-height: 80vh;
     font-family: 'Noto Serif JP', serif;
     font-weight: 300;
-    background-color:#b2e6e6;
+    background-color: #b2e6e6;
 }
 
-#page-one{
-    background-color: #808080;
+.map {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto
 }
