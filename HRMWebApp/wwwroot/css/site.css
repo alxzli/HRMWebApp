@@ -18,13 +18,24 @@ body {
     margin-bottom: 60px;
 }
 
-
-html, body, #page-one, #page-two, #page-three, #page-four {
+html, body{
     height: auto;
-    min-height: 80vh;
     font-family: 'Noto Serif JP', serif;
     font-weight: 300;
     background-color: #e5deb8;
+}
+
+#page-one {
+    max-height: 50vh
+}
+
+#page-two, #page-three, #page-four {
+    min-height: 80vh;
+}
+
+
+#page-two, #page-three, #page-four {
+    padding-top: 100px
 }
 
 .map-container {
@@ -56,4 +67,10 @@ a.deco-none {
     align-items: center;
 }
 
-
+#mainNav{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+}
